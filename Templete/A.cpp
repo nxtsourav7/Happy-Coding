@@ -12,10 +12,13 @@ void solve() {
 }
 
 int main(void) {
-	ios_base::sync_with_stdio(0);cin.tie(0); cout.tie(0);
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
 
 	/* TEST CASE */
-	int tc = 1;cin >> tc;
+	int tc = 1;
+	cin >> tc;
 	for(int t=1 ; t<=tc ; t++) {
 		solve();
 	}
