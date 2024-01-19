@@ -19,8 +19,15 @@
                 "-Wno-unused-result",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.out"
+                "${fileDirname}/execute.out"
             ],
+            "presentation": {
+                "reveal": "never",
+                // "revealProblems": "onProblem",
+                // "showReuseMessage": false,
+                "clear": true,
+                "close": true
+            },
             "options": {
                 "cwd": "${fileDirname}"
             },
